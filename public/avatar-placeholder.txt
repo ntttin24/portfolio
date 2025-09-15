@@ -1,0 +1,11 @@
+Để thay đổi avatar:
+
+1. Đặt hình ảnh avatar của bạn vào thư mục public/ với tên "avatar.jpg"
+2. Hoặc thay đổi đường dẫn trong file src/components/AnimatedHome.jsx dòng 28:
+   src="/avatar.jpg" thành src="/tên-file-của-bạn.jpg"
+
+Kích thước khuyến nghị: 400x400px (hình vuông)
+Format: JPG, PNG, hoặc WebP
+
+Hiện tại đang sử dụng fallback là chữ "NT" nếu không tìm thấy file avatar.
+
