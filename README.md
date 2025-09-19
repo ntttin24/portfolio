@@ -1,8 +1,7 @@
 # Portfolio Website - Sinh viên Công nghệ Phần mềm
 
 Một website portfolio cá nhân được xây dựng bằng Next.js 13+ với App Router, TailwindCSS và shadcn/ui. 
-Dành cho sinh viên chuyên ngành Công nghệ Phần mềm tại Đại học Ngoại Ngữ - Tin học TP.HCM.
-
+Link demo: https://portfolio-ntttin24.vercel.app/
 ## 🚀 Tính năng
 
 - **Trang chủ**: Giới thiệu ngắn gọn với tech stack và thống kê
@@ -46,63 +45,6 @@ npm run dev
 
 4. Mở [http://localhost:3000](http://localhost:3000) để xem website
 
-## 🎨 Tùy chỉnh
-
-### Thay đổi thông tin cá nhân
-
-1. **Trang chủ** (`src/app/page.js`):
-   - Thay đổi tên, tagline và thông tin giới thiệu
-   - Cập nhật tech stack và skill levels
-
-2. **Giới thiệu** (`src/app/about/page.js`):
-   - Cập nhật câu chuyện cá nhân
-   - Thay đổi danh sách kỹ năng
-   - Sửa thông tin học vấn
-
-3. **Dự án** (`src/app/projects/page.js`):
-   - Thêm/sửa các dự án của bạn
-   - Cập nhật links GitHub và demo
-   - Thay đổi technologies sử dụng
-
-4. **Kinh nghiệm** (`src/app/experience/page.js`):
-   - Cập nhật timeline học vấn
-   - Thêm kinh nghiệm làm việc
-   - Sửa thông tin chứng chỉ
-
-5. **Liên hệ** (`src/app/contact/page.js`):
-   - Thay đổi thông tin liên hệ
-   - Cập nhật social media links
-   - Tùy chỉnh form fields
-
-### Thay đổi màu sắc
-
-Chỉnh sửa file `src/app/globals.css` để thay đổi color scheme:
-
-```css
-:root {
-  --primary: 221.2 83.2% 53.3%;
-  --primary-foreground: 210 40% 98%;
-  /* Thêm các màu khác... */
-}
-```
-
-## 🚀 Deploy
-
-### Deploy lên Vercel (Khuyến nghị)
-
-1. Push code lên GitHub
-2. Kết nối repository với Vercel
-3. Deploy tự động
-
-### Deploy lên các platform khác
-
-```bash
-# Build production
-npm run build
-
-# Start production server
-npm start
-```
 
 ## 📱 Responsive Design
 
@@ -136,21 +78,3 @@ src/
 - `npm run build` - Build production
 - `npm run start` - Chạy production server
 - `npm run lint` - Kiểm tra linting
-
-## 📄 License
-
-MIT License - Tự do sử dụng cho mục đích cá nhân và thương mại.
-
-## 🤝 Đóng góp
-
-Mọi đóng góp đều được chào đón! Hãy tạo issue hoặc pull request.
-
-## 📞 Liên hệ
-
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-
----
-
-⭐ Nếu bạn thấy dự án này hữu ích, hãy cho một star nhé!
